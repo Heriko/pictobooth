@@ -1,0 +1,118 @@
+# Translation of Plugins - Classic Editor - Stable (latest release) in Indonesian
+# This file is distributed under the same license as the Plugins - Classic Editor - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-10-17 09:09:25+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: id\n"
+"Project-Id-Version: Plugins - Classic Editor - Stable (latest release)\n"
+
+#: classic-editor.php:822
+msgctxt "Editor Name"
+msgid "Edit (classic editor)"
+msgstr "Edit (editor klasik)"
+
+#: classic-editor.php:815
+msgctxt "Editor Name"
+msgid "Edit (block editor)"
+msgstr "Edit (editor blok)"
+
+#: classic-editor.php:489
+msgid "Change settings"
+msgstr "Ubah pengaturan"
+
+#: classic-editor.php:476
+msgid "Default editor for all sites"
+msgstr "Editor standar untuk semua situs"
+
+#: classic-editor.php:472
+msgid "Editor Settings"
+msgstr "Pengaturan Editor"
+
+#: classic-editor.php:456
+msgid "Default Editor"
+msgstr "Editor Standar"
+
+#: classic-editor.php:856
+msgctxt "Editor Name"
+msgid "block editor"
+msgstr "editor blok"
+
+#: classic-editor.php:853
+msgctxt "Editor Name"
+msgid "classic editor"
+msgstr "editor klasik"
+
+#. translators: %s: post title
+#: classic-editor.php:817
+msgid "Edit &#8220;%s&#8221; in the block editor"
+msgstr "Edit &#8220;%s&#8221; di editor blok"
+
+#: classic-editor.php:657
+msgid "Switch to block editor"
+msgstr "Beralih ke editor blok"
+
+#: classic-editor.php:681
+msgid "Switch to classic editor"
+msgstr "Beralih ke editor klasik"
+
+#: classic-editor.php:493
+msgid "By default the block editor is replaced with the classic editor and users cannot switch editors."
+msgstr "Secara standar, editor blok diganti dengan editor klasik dan pengguna tidak dapat beralih editor."
+
+#: classic-editor.php:492
+msgid "Allow site admins to change settings"
+msgstr "Izinkan admin situs mengubah pengaturan"
+
+#: classic-editor.php:638
+msgid "Editor"
+msgstr "Editor"
+
+#: classic-editor.php:431
+msgid "No"
+msgstr "Tidak"
+
+#: classic-editor.php:427
+msgid "Yes"
+msgstr "Ya"
+
+#: classic-editor.php:354
+msgid "Allow users to switch editors"
+msgstr "Izinkan pengguna untuk beralih editor"
+
+#: classic-editor.php:353
+msgid "Default editor for all users"
+msgstr "Editor standar untuk semua pengguna"
+
+#. Author URI of the plugin
+msgid "https://github.com/WordPress/classic-editor/"
+msgstr "https://github.com/WordPress/classic-editor/"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/classic-editor/"
+msgstr "https://wordpress.org/plugins/classic-editor/"
+
+#. Author of the plugin
+msgid "WordPress Contributors"
+msgstr "Kontributor WordPress"
+
+#. Description of the plugin
+msgid "Enables the WordPress classic editor and the old-style Edit Post screen with TinyMCE, Meta Boxes, etc. Supports the older plugins that extend this screen."
+msgstr "Mengaktifkan editor klasik WordPress dan layar Edit Post gaya lama dengan TinyMCE, Meta Box, dll. Mendukung plugin lama yang memperluas layar ini."
+
+#. Plugin Name of the plugin
+msgid "Classic Editor"
+msgstr "Editor Klasik"
+
+#. translators: %s: post title
+#: classic-editor.php:824
+msgid "Edit &#8220;%s&#8221; in the classic editor"
+msgstr "Edit &#8220;%s&#8221; di editor klasik"
+
+#: classic-editor.php:700
+msgid "Settings"
+msgstr "Pengaturan"

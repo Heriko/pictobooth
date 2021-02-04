@@ -1,0 +1,613 @@
+# Translation of Themes - Neve in Indonesian
+# This file is distributed under the same license as the Themes - Neve package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-03-19 02:54:37+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: id\n"
+"Project-Id-Version: Themes - Neve\n"
+
+#. Description of the theme
+msgid "Neve is a super fast, easily customizable, multi-purpose theme. It’s perfect for blogs, small business, startups, agencies, firms, e-commerce shops (WooCommerce storefront) as well as personal portfolio sites and most types of projects. A fully AMP optimized and responsive theme, Neve will load in mere seconds and adapt perfectly on any viewing device. While it is lightweight and has a minimalist design, the theme is highly extendable, it has a highly SEO optimized code, resulting in top rankings in Google search results. Neve works perfectly with Gutenberg and the most popular page builders (Elementor, Brizy, Beaver Builder, Visual Composer, SiteOrigin, Divi). Neve is also WooCommerce ready, responsive, RTL & translation ready. Look no further. Neve is the perfect theme for you!"
+msgstr "Neve adalah tema yang cepat, mudah dikustomisasi, serba guna. Cocok untuk blog, bisnis kecil, startup, agensi, pengacara, toko online (halaman WooCommerce) sebagus situs portfolio dan project lainnya. AMP yang dioptimasi dan tema yang tesponsif, Neve akan memuat dalam sepersekian detik dan beradaptasi dengan sempurna pada tampilan perangkat. Ini benar-benar ringan dan memiliki desain yang sederhana, tema ini bisa diperluas, memiliki kode optimasi SEO, muncul pertama dihasil pencarian Google. Neve berfungsi sempurna dengan Gutenberg dan page builder yang populer (Elementir, Brizy, Beaver, Visual Composer, SiteOrigin, Divi). Neve juga cocok dengan WooCommerce, responsif, RTL & terjemahan. Tunggu apa lagi. Neve adalah tema yang cocok untuk Anda!"
+
+#. Theme Name of the theme
+msgid "Neve"
+msgstr "Neve"
+
+#: inc/views/pluggable/pagination.php:163
+msgid "next"
+msgstr "selanjutnya"
+
+#: inc/views/pluggable/pagination.php:158
+msgid "previous"
+msgstr "sebelumnya"
+
+#: inc/customizer/options/layout_single_post.php:71
+msgid "Post navigation"
+msgstr "pos navigasi"
+
+#. translators: %s - post type
+#: inc/admin/metabox/manager.php:128 inc/admin/metabox/manager.php:145
+msgid "%s Settings"
+msgstr "Pengaturan %s"
+
+#: inc/core/admin.php:242
+msgid "Return to your dashboard"
+msgstr "Kembali ke dasbor"
+
+#. translators: %s - theme name
+#: inc/core/admin.php:228
+msgid "%s is now installed and ready to use. We've assembled some links to get you started."
+msgstr "%s sekarang terpasang dan siap digunakan. Kami telah menyelesaikan beberapa tautan untuk Anda memulai."
+
+#: inc/core/admin.php:225
+msgid "Congratulations!"
+msgstr "Selamat!"
+
+#: inc/core/admin.php:248
+msgid "or go to the theme settings"
+msgstr "atau pergi ke pengaturan tema"
+
+#: inc/core/admin.php:237
+msgid "Try one of our ready to use Starter Sites"
+msgstr "Cobalah salah satu dari beberapa tema siap pakai kami"
+
+#. translators: %s: number of comments
+#: inc/views/partials/post_meta.php:221
+msgid "%s Comment"
+msgid_plural "%s Comments"
+msgstr[0] "%s Komentar"
+msgstr[1] "%s Komentar"
+
+#: functions.php:48
+msgid "upgrading PHP to the latest version"
+msgstr "meningkatkan PHP ke versi terbaru"
+
+#. Template Name of the theme
+msgid "Page Builder Full Width (Neve)"
+msgstr "Lebar Penuh Page Builder (Neve)"
+
+#: inc/views/content_404.php:37
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Kami tidak dapat menemukan apa yang Anda cari. Mungkin pencarian dapat membantu."
+
+#: inc/views/content_none.php:57
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Maaf, tidak ada yang sesuai dengan kata kunci Anda. Silahkan coba lagi dengan kata kunci lain."
+
+#: inc/views/content_none.php:39
+msgid "Get started here"
+msgstr "Mulai disini"
+
+#: inc/views/template_parts.php:251
+msgid "Read More"
+msgstr "Selengkapnya"
+
+#: inc/customizer/options/layout_single_post.php:70
+#: inc/views/partials/post_meta.php:235
+#: inc/admin/metabox/src/components/MetaFieldsManager.js:318
+msgid "Tags"
+msgstr "Tag"
+
+#. translators: number of comments
+#: inc/views/partials/comments.php:178
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s tanggapan pada &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s tanggapan pada &ldquo;%2$s&rdquo;"
+
+#: inc/views/partials/comments.php:157
+msgid "Comment awaiting moderation."
+msgstr "Komentar menunggu moderasi."
+
+#: inc/views/partials/comments.php:144
+msgid "Reply"
+msgstr "Balas"
+
+#. translators: 1: date, 2: time
+#: inc/views/partials/comments.php:129
+msgid "%1$s at %2$s"
+msgstr "%1$s pada %2$s"
+
+#: inc/views/partials/comments.php:107 inc/views/partials/comments.php:138
+#: inc/customizer/controls/react/src/common/CustomPalette.js:18
+#: inc/customizer/controls/react/bundle/controls.js:1
+msgid "Edit"
+msgstr "Sunting"
+
+#: inc/views/partials/comments.php:105
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: inc/views/partials/comments.php:82
+msgid "Next"
+msgstr "Selanjutnya"
+
+#: inc/views/partials/comments.php:79
+msgid "Previous"
+msgstr "Sebelumnya"
+
+#: inc/views/partials/comments.php:74
+msgid "Comments Navigation"
+msgstr "Navigasi Komentar"
+
+#: inc/views/partials/comments.php:57
+msgid "Comments are closed."
+msgstr "Komentar ditutup."
+
+#. translators: search result
+#: inc/views/page_header.php:78
+msgid "Search Results for: %s"
+msgstr "Hasil Pencarian untuk: %s"
+
+#: header-footer-grid/templates/row-wrapper-mobile.php:38
+#: header-footer-grid/templates/components/component-menu-icon.php:39
+msgid "Toggle Navigation"
+msgstr "Tombol Navigasi"
+
+#: header-footer-grid/templates/row-wrapper-mobile.php:28
+#: header-footer-grid/templates/components/component-menu-icon.php:26
+msgid "Navigation Menu"
+msgstr "Menu Navigasi"
+
+#: inc/views/layouts/layout_sidebar.php:144 inc/views/header.php:130
+#: header-footer-grid/templates/components/component-cart-icon.php:26
+#: header-footer-grid/Core/Customizer.php:290
+msgid "Close"
+msgstr "Tutup"
+
+#: header-footer-grid/Core/Components/Search.php:120
+#: header-footer-grid/Core/Components/SearchResponsive.php:284
+#: inc/customizer/controls/react/src/typeface/TypefaceComponent.js:263
+#: inc/customizer/controls/react/bundle/controls.js:1
+msgid "Font Size"
+msgstr "Ukuran Font"
+
+#: inc/customizer/options/typography.php:111
+msgid "Headings"
+msgstr "Judul"
+
+#: inc/customizer/options/typography.php:107
+#: header-footer-grid/Core/Settings/Manager.php:177
+msgid "General"
+msgstr "Umum"
+
+#: inc/customizer/options/main.php:57
+#: header-footer-grid/Core/Components/Abstract_Component.php:784
+msgid "Typography"
+msgstr "Tipografi"
+
+#: header-footer-grid/Core/Builder/Header.php:38
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:491
+msgid "Header"
+msgstr "Header"
+
+#: inc/customizer/options/layout_single_post.php:84
+msgid "Elements Order"
+msgstr "Susunan Elemen"
+
+#: inc/customizer/options/layout_sidebar.php:323
+msgid "Content Width (%)"
+msgstr "Lebar Konten (%)"
+
+#: inc/customizer/options/layout_sidebar.php:224
+msgid "Sidebar Layout"
+msgstr "Tata Letak Sidebar"
+
+#: inc/customizer/options/layout_sidebar.php:165
+msgid "Others"
+msgstr "Lainnya"
+
+#: inc/customizer/options/layout_single_product.php:52
+#: inc/customizer/options/layout_sidebar.php:161
+msgid "Single Product"
+msgstr "Produk Tunggal"
+
+#: inc/customizer/options/layout_sidebar.php:160
+msgid "Shop / Archive"
+msgstr "Toko / Arsip"
+
+#: inc/customizer/options/layout_sidebar.php:153
+#: inc/customizer/options/layout_single_post.php:42
+#: inc/customizer/options/typography.php:335
+msgid "Single Post"
+msgstr "Pos Tunggal"
+
+#: inc/customizer/options/layout_sidebar.php:104
+msgid "Enable Advanced Options"
+msgstr "Aktifkan Opsi Lanjutan"
+
+#: inc/customizer/options/layout_sidebar.php:81
+msgid "Sitewide Content Width (%)"
+msgstr "Lebar Konten Situs (%)"
+
+#: inc/customizer/options/layout_sidebar.php:62
+msgid "Sitewide Sidebar Layout"
+msgstr "Tata Letak Sidebar Situs"
+
+#: header-footer-grid/Core/Components/Nav.php:177
+#: inc/customizer/controls/react/src/font-family/FontFamilySelector.js:126
+#: inc/customizer/controls/react/bundle/controls.js:1
+msgid "Search"
+msgstr "Cari"
+
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:574
+msgid "Section Content"
+msgstr "Konten Bagian"
+
+#. translators: %1$s is Theme Name ( Neve ), %2$s is WordPress
+#: header-footer-grid/Core/Components/Copyright.php:64
+msgid "%1$s | Powered by %2$s"
+msgstr "%1$s | Diberdayakan oleh %2$s"
+
+#: header-footer-grid/Core/Components/Button.php:116
+#: inc/customizer/controls/react/src/button-appearance/ButtonAppearanceComponent.js:226
+#: inc/customizer/controls/react/src/button-appearance/ButtonAppearanceComponent.js:236
+#: inc/customizer/controls/react/bundle/controls.js:1
+msgid "Text"
+msgstr "Teks"
+
+#: inc/customizer/options/layout_single_product.php:124
+#: inc/customizer/controls/react/src/typeface/TypefaceComponent.js:197
+#: inc/customizer/controls/react/src/typeface/TypefaceComponent.js:231
+#: inc/customizer/controls/react/bundle/controls.js:1
+#: inc/admin/metabox/src/components/MetaFieldsManager.js:151
+msgid "None"
+msgstr "None"
+
+#: inc/customizer/options/layout_single_post.php:69
+#: inc/admin/metabox/src/components/MetaFieldsManager.js:317
+msgid "Content"
+msgstr "Konten"
+
+#: header-footer-grid/Core/Builder/Footer.php:34
+#: header-footer-grid/Core/Builder/Footer.php:74
+msgid "Footer"
+msgstr "Footer"
+
+#: inc/customizer/options/layout_container.php:112
+msgid "Single Product Container Style"
+msgstr "Gaya Container Produk Tunggal"
+
+#: inc/customizer/options/layout_container.php:108
+msgid "Shop / Archive Container Style"
+msgstr "Gaya Container Toko / Arsip"
+
+#: inc/customizer/options/layout_container.php:98
+msgid "Single Post Container Style"
+msgstr "Gaya Container Pos Tunggal"
+
+#: inc/customizer/options/layout_container.php:94
+msgid "Blog / Archive Container Style"
+msgstr "Gaya Container Blog / Arsip"
+
+#: inc/customizer/options/layout_container.php:90
+msgid "Default Container Style"
+msgstr "Gaya Container Bawaan"
+
+#: inc/customizer/options/layout_blog.php:406
+msgid "Meta Order"
+msgstr "Susunan Meta"
+
+#: inc/customizer/options/layout_blog.php:394
+#: inc/customizer/options/layout_single_post.php:72
+#: inc/views/partials/post_meta.php:132
+#: inc/admin/metabox/src/components/MetaFieldsManager.js:319
+msgid "Comments"
+msgstr "Komentar"
+
+#: inc/customizer/options/layout_blog.php:393
+#: inc/views/partials/post_meta.php:131
+msgid "Date"
+msgstr "Tanggal"
+
+#: inc/customizer/options/layout_single_product.php:107
+#: inc/customizer/options/layout_blog.php:392
+#: inc/views/partials/post_meta.php:130
+msgid "Category"
+msgstr "Kategori"
+
+#: inc/customizer/options/layout_blog.php:391
+#: inc/views/partials/post_meta.php:129
+#: header-footer-grid/Core/Magic_Tags.php:543
+msgid "Author"
+msgstr "Penulis"
+
+#: inc/customizer/options/layout_blog.php:303
+msgid "Post Content Order"
+msgstr "Susunan Konten Pos"
+
+#: inc/customizer/options/layout_blog.php:292
+msgid "Excerpt"
+msgstr "Kutipan"
+
+#: inc/customizer/options/layout_blog.php:291
+#: inc/customizer/options/layout_single_post.php:67
+msgid "Title & Meta"
+msgstr "Meta & Judul"
+
+#: inc/customizer/options/layout_blog.php:290
+#: inc/customizer/options/layout_single_post.php:68
+msgid "Thumbnail"
+msgstr "Thumbnail"
+
+#: inc/customizer/options/layout_blog.php:277
+msgid "Infinite Scroll"
+msgstr "Infinite Scroll"
+
+#: inc/customizer/options/layout_blog.php:276
+msgid "Number"
+msgstr "Angka"
+
+#: inc/customizer/options/layout_blog.php:271
+msgid "Post Pagination"
+msgstr "Paginasi Pos"
+
+#: inc/customizer/options/layout_blog.php:320
+msgid "Excerpt Length"
+msgstr "Panjang Kutipan"
+
+#: inc/customizer/options/layout_blog.php:233
+msgid "Enable Masonry"
+msgstr "Aktifkan Masonri"
+
+#: inc/customizer/options/main.php:53
+#: inc/customizer/options/layout_blog.php:117
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:303
+#: header-footer-grid/Core/Settings/Manager.php:181
+msgid "Layout"
+msgstr "Tata Letak"
+
+#: inc/customizer/options/layout_blog.php:117
+#: inc/customizer/options/typography.php:115
+msgid "Blog"
+msgstr "Blog"
+
+#: inc/customizer/options/layout_blog.php:80
+#: inc/customizer/options/layout_sidebar.php:152
+msgid "Blog / Archive"
+msgstr "Blog / Arsip"
+
+#: inc/customizer/options/colors_background.php:43
+msgid "Colors & Background"
+msgstr "Warna & Latar"
+
+#. translators: %s is the header name
+#: header-footer-grid/Core/Customizer.php:270 assets/js/src/gutenberg.js:9
+#: inc/customizer/controls/react/src/font-family/FontFamilySelector.js:62
+#: inc/customizer/controls/react/src/font-family/FontFamilySelector.js:180
+#: inc/customizer/controls/react/bundle/controls.js:1
+#: inc/admin/metabox/src/components/MetaFieldsManager.js:175
+msgid "Default"
+msgstr "Bawaan"
+
+#: inc/core/front_end.php:508
+#: header-footer-grid/Core/Components/FooterWidgetFour.php:32
+msgid "Footer Four"
+msgstr "Footer Empat"
+
+#: inc/core/front_end.php:507
+#: header-footer-grid/Core/Components/FooterWidgetThree.php:31
+msgid "Footer Three"
+msgstr "Footer Tiga"
+
+#: inc/core/front_end.php:506
+#: header-footer-grid/Core/Components/FooterWidgetTwo.php:32
+msgid "Footer Two"
+msgstr "Footer Dua"
+
+#: inc/core/front_end.php:505
+#: header-footer-grid/Core/Components/FooterWidgetOne.php:31
+msgid "Footer One"
+msgstr "Footer Satu"
+
+#: inc/core/front_end.php:499
+msgid "Shop Sidebar"
+msgstr "Sidebar Toko"
+
+#: inc/core/front_end.php:114 inc/compatibility/elementor.php:116
+#: inc/customizer/options/layout_blog.php:184
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:385
+#: header-footer-grid/Core/Components/Logo.php:205
+#: header-footer-grid/Core/Components/CustomHtml.php:163
+#: header-footer-grid/Core/Components/Copyright.php:84
+#: inc/customizer/controls/react/src/common/common.js:77
+#: inc/customizer/controls/react/bundle/controls.js:1
+msgid "Text Color"
+msgstr "Warna Teks"
+
+#: inc/core/front_end.php:72
+#: header-footer-grid/templates/components/component-nav-footer.php:23
+#: header-footer-grid/Core/Components/NavFooter.php:41
+#: header-footer-grid/Core/Components/NavFooter.php:138
+msgid "Footer Menu"
+msgstr "Menu Footer"
+
+#: inc/core/front_end.php:71
+#: header-footer-grid/templates/components/component-nav.php:26
+#: header-footer-grid/Core/Components/Nav.php:43
+#: header-footer-grid/Core/Components/Nav.php:221
+msgid "Primary Menu"
+msgstr "Menu Utama"
+
+#: dashboard/inc/Main.php:342 inc/customizer/options/layout_sidebar.php:43
+msgid "Content / Sidebar"
+msgstr "Konten / Sidebar"
+
+#: dashboard/inc/Main.php:338
+msgid "Footer Options"
+msgstr "Opsi Footer"
+
+#: dashboard/inc/Main.php:334
+msgid "Blog Layouts"
+msgstr "Tata Letak Blog"
+
+#: dashboard/inc/Main.php:330
+msgid "Header Options"
+msgstr "Opsi Header"
+
+#: dashboard/inc/Main.php:326
+msgid "Layout Options"
+msgstr "Opsi Tata Letak"
+
+#: dashboard/inc/Main.php:322
+msgid "Customize Fonts"
+msgstr "Kustomisasi Font"
+
+#: dashboard/inc/Main.php:318
+msgid "Set Colors"
+msgstr "Atur Warna"
+
+#: dashboard/inc/Main.php:314
+msgid "Upload Logo"
+msgstr "Unggah Logo"
+
+#: inc/core/admin.php:271 header-footer-grid/Core/Builder/Header.php:51
+#: header-footer-grid/Core/Builder/Footer.php:47
+msgid "Read full documentation"
+msgstr "Baca dokumentasi lengkap"
+
+#: inc/core/admin.php:267 dashboard/build/dashboard.js:1
+msgid "Documentation"
+msgstr "Dokumentasi"
+
+#: inc/views/header.php:165
+#: header-footer-grid/templates/components/component-cart-icon.php:50
+#: header-footer-grid/Core/Components/Nav.php:182
+#: header-footer-grid/Core/Magic_Tags.php:598
+msgid "Cart"
+msgstr "Keranjang"
+
+#: inc/compatibility/woocommerce.php:341
+msgid "Filter"
+msgstr "Saringan"
+
+#: inc/admin/plugin_install/main.php:176
+msgid "Activating "
+msgstr "Mengaktifkan"
+
+#: inc/admin/plugin_install/main.php:133
+msgid "Jetpack Portfolio"
+msgstr "Portfolio Jetpack"
+
+#: inc/admin/plugin_install/main.php:128 dashboard/build/dashboard.js:1
+msgid "Deactivate"
+msgstr "Nonaktifkan"
+
+#: inc/admin/plugin_install/main.php:113 inc/admin/plugin_install/main.php:133
+#: dashboard/build/dashboard.js:1
+msgid "Activate"
+msgstr "Aktifkan"
+
+#: inc/admin/plugin_install/main.php:109
+msgid "Install and activate"
+msgstr "Pasang dan aktifkan"
+
+#: inc/core/front_end.php:498 inc/admin/metabox/main.php:56
+#: inc/admin/metabox/src/components/MetaFieldsManager.js:141
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#: inc/admin/metabox/main.php:54
+msgid "No Sidebar"
+msgstr "Tanpa Sidebar"
+
+#: inc/admin/metabox/main.php:53
+msgid "Right Sidebar"
+msgstr "Sidebar Kanan"
+
+#: inc/admin/metabox/main.php:52
+msgid "Left Sidebar"
+msgstr "Sidebar Kiri"
+
+#: inc/customizer/options/layout_container.php:43 inc/admin/metabox/main.php:41
+#: inc/admin/metabox/src/components/MetaFieldsManager.js:165
+msgid "Container"
+msgstr "Container"
+
+#: inc/customizer/options/layout_container.php:134
+#: inc/admin/metabox/main.php:39
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:308
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:309
+#: inc/admin/metabox/src/components/MetaFieldsManager.js:189
+msgid "Full Width"
+msgstr "Lebar Penuh"
+
+#: inc/customizer/options/layout_container.php:133
+#: inc/admin/metabox/main.php:38
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:308
+#: header-footer-grid/Core/Builder/Abstract_Builder.php:310
+#: inc/admin/metabox/src/components/MetaFieldsManager.js:182
+msgid "Contained"
+msgstr "Contained"
+
+#: inc/admin/metabox/main.php:37 inc/admin/metabox/main.php:51
+msgid "Customizer Setting"
+msgstr "Pengaturan Kustomisasi"
+
+#: inc/admin/metabox/main.php:88
+#: inc/admin/metabox/src/components/MetaFieldsManager.js:365
+msgid "Disable Footer"
+msgstr "Nonaktifkan Footer"
+
+#: inc/admin/metabox/main.php:82
+msgid "Disable Featured Image"
+msgstr "Nonaktifkan Gambar Unggulan"
+
+#: inc/admin/metabox/main.php:76
+#: inc/admin/metabox/src/components/MetaFieldsManager.js:379
+msgid "Disable Title"
+msgstr "Nonaktifkan Judul"
+
+#: inc/admin/metabox/main.php:71
+#: inc/admin/metabox/src/components/MetaFieldsManager.js:353
+msgid "Disable Header"
+msgstr "Nonaktifkan Header"
+
+#: inc/admin/metabox/main.php:70
+msgid "Components"
+msgstr "Komponen"
+
+#: inc/admin/metabox/main.php:129
+msgid "Enable Individual Content Width"
+msgstr "Aktifkan Lebar Penuh Individu"
+
+#: inc/admin/metabox/main.php:128
+msgid "Content Width"
+msgstr "Lebar Konten"
+
+#: header.php:31
+msgid "Skip to content"
+msgstr "Lompat ke konten"
+
+#. translators: %s message to upgrade PHP to the latest version
+#: functions.php:44
+msgid "Hey, we've noticed that you're running an outdated version of PHP which is no longer supported. Make sure your site is fast and secure, by %s. Neve's minimal requirement is PHP 5.4.0."
+msgstr "Hai, kami mendeteksi Anda menggunakan versi PHP lama. Pastikan situs Anda cepat dan aman, dengan %s. Neve memerlukan setidaknya PHP 5.4.0."
+
+#. translators: %s is Link to new post
+#: inc/views/content_none.php:34
+msgid "Ready to publish your first post? %s."
+msgstr "Siap untuk mempublikasikan pos pertama Anda? %s."
+
+#: inc/core/admin.php:259
+msgid "Sites Library"
+msgstr "Pustaka Situs"
+
+#. Author URI of the theme
+msgid "https://themeisle.com"
+msgstr "https://themeisle.com"
+
+#. Author of the theme
+msgid "ThemeIsle"
+msgstr "ThemeIsle"
+
+#. Theme URI of the theme
+msgid "https://themeisle.com/themes/neve/"
+msgstr "https://themeisle.com/themes/neve/"

@@ -1,0 +1,16 @@
+[22/Jan/2021:12:59:11] (I): WordPress Instance Info:
+[22/Jan/2021:12:59:11] (I): Home URL : http://localhost/pictobooth
+[22/Jan/2021:12:59:11] (I): Site URL : http://localhost/pictobooth
+[22/Jan/2021:12:59:11] (I): WordPress Version : 5.6
+[22/Jan/2021:12:59:11] (I): Onboarding Version : 1.1.2
+[22/Jan/2021:12:59:11] (I): Multisite : No
+[22/Jan/2021:12:59:11] (I): Server Info : Apache/2.4.34 (Win32) OpenSSL/1.1.0h PHP/7.2.8
+[22/Jan/2021:12:59:11] (I): PHP Version : 7.2.8
+[22/Jan/2021:12:59:11] (I): HTTPS : No
+[22/Jan/2021:12:59:11] (I): PHP Max Execution Time : 30
+[22/Jan/2021:12:59:11] (I): PHP Max Input Vars : 1000
+[22/Jan/2021:12:59:11] (I): Max Upload Size : 2097152
+[22/Jan/2021:12:59:11] (I): Plugins:
+[22/Jan/2021:12:59:11] (I): [PLUGIN] Elementor : v3.0.7 (Elementor.com)
+[22/Jan/2021:12:59:11] (I): [PLUGIN] Templates Patterns Collection : v1.1.2 (ThemeIsle)
+[22/Jan/2021:12:59:11] (I): [PLUGIN] WP Reset : v1.84 (WebFactory Ltd)

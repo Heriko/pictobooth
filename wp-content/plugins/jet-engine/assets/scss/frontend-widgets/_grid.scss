@@ -1,0 +1,256 @@
+.jet-listing-grid {
+
+	&[data-lazy-load] {
+		min-height: 1px;
+	}
+
+	&.jet-listing-grid-loading {
+		&:after {
+			content: '';
+			display: block;
+			width: 36px;
+			height: 36px;
+			margin: 0 auto;
+			color: rgba(100, 100, 100, 0.8);
+			border: 4px solid currentColor;
+			border-top-color: transparent;
+			border-radius: 50%;
+			animation: jet-engine-spin 1s infinite linear;
+		}
+	}
+
+	&__items {
+		display: flex;
+		flex-wrap: wrap;
+		margin: 0 -10px;
+		width: calc(100% + 20px);
+	}
+
+	&__masonry {
+		align-items: flex-start;
+	}
+
+	&__item {
+		padding: 10px;
+
+		@for $i from 1 through 10 {
+			.grid-col-desk-#{$i} > & {
+				max-width: 100%/$i;
+				flex: 0 0 100%/$i;
+			}
+		}
+
+		&.colspan-1 {
+			max-width: 100% !important;
+			flex: 0 0 100% !important;
+		}
+
+		@for $i from 2 through 6 {
+			@for $j from $i+1 through 10 {
+				&.colspan-#{$i}-#{$j} {
+					max-width: percentage($i/$j) !important;
+					flex: 0 0 percentage($i/$j) !important;
+				}
+			}
+		}
+	}
+	&__slider {
+		position: relative;
+
+		&[dir="rtl"] {
+			.slick-slide {
+				float: right;
+			}
+		}
+
+		&-icon.slick-arrow {
+			position: absolute;
+			top: 50%;
+			width: 50px;
+			height: 50px;
+			line-height: 50px;
+			font-size: 30px;
+			color: #fff;
+			background-color: #111;
+			left: 0;
+			margin-top: -25px;
+			cursor: pointer;
+			text-align: center;
+			z-index: 999;
+			&.next-arrow {
+				left: auto;
+				right: 0;
+				transform: scaleX(-1);
+			}
+		}
+		> .jet-listing-grid__items:not(.slick-initialized) {
+			> .jet-listing-grid__item {
+				display: none;
+				&:first-of-type {
+					display: block;
+				}
+			}
+		}
+		.jet-slick-dots {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 100%;
+			margin: 10px 0;
+			li {
+				width: 12px;
+				height: 12px;
+				border-radius: 100%;
+				text-indent: -50px;
+				overflow: hidden;
+				cursor: pointer;
+				background: #eee;
+				margin: 3px;
+				&:hover,
+				&.slick-active {
+					background: #111;
+				}
+			}
+		}
+	}
+
+	.jet-engine-listing-overlay {
+		&-wrap {
+			position: relative;
+			cursor: pointer;
+		}
+		&-link {
+			position: absolute;
+			left: 0;
+			right: 0;
+			top: 0;
+			bottom: 0;
+			z-index: -1;
+		}
+	}
+}
+
+.jet-listing-grid__item {
+	&.jet-equal-columns {
+		> .elementor {
+			height: 100%;
+			> .elementor-inner {
+				height: 100%;
+				> .elementor-section-wrap {
+					height: 100%;
+					> .elementor-section {
+						height: 100%;
+					}
+				}
+			}
+
+			// For compat with E. v3.0
+			> .elementor-section-wrap {
+				height: 100%;
+				> .elementor-section {
+					height: 100%;
+				}
+			}
+		}
+		.jet-engine-listing-overlay-wrap {
+			height: 100%;
+			
+			> .elementor {
+				height: 100%;
+				> .elementor-inner {
+					height: 100%;
+					> .elementor-section-wrap {
+						height: 100%;
+						> .elementor-section {
+							height: 100%;
+						}
+					}
+				}
+
+				// For compat with E. v3.0
+				> .elementor-section-wrap {
+					height: 100%;
+					> .elementor-section {
+						height: 100%;
+					}
+				}
+			}
+		}
+	}
+}
+
+.jet-listing-grid__items.jet-equal-columns__wrapper {
+	.slick-track {
+		display: flex;
+		align-items: stretch;
+	}
+
+	.slick-slide {
+		float: none;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+
+		img {
+			object-fit: cover;
+			flex-grow: 1;
+		}
+
+		> *,
+		.jet-equal-columns{
+			height: 100%;
+		}
+	}
+}
+
+.jet-listing-not-found {
+	text-align: center;
+	display: block;
+    margin: 0;
+    width: 100%;
+}
+
+@media ( max-width: 1025px ) {
+	@for $i from 1 through 10 {
+		.grid-col-tablet-#{$i} > .jet-listing-grid__item {
+			max-width: 100%/$i;
+			flex: 0 0 100%/$i;
+		}
+	}
+}
+
+body[data-elementor-device-mode="tablet"] {
+	@for $i from 1 through 10 {
+		.grid-col-tablet-#{$i} > .jet-listing-grid__item {
+			max-width: 100%/$i;
+			flex: 0 0 100%/$i;
+		}
+	}
+}
+
+@media ( max-width: 768px ) {
+	@for $i from 1 through 10 {
+		.grid-col-mobile-#{$i} > .jet-listing-grid__item {
+			max-width: 100%/$i;
+			flex: 0 0 100%/$i;
+		}
+	}
+}
+
+body[data-elementor-device-mode="mobile"] {
+	@for $i from 1 through 10 {
+		.grid-col-mobile-#{$i} > .jet-listing-grid__item {
+			max-width: 100%/$i;
+			flex: 0 0 100%/$i;
+		}
+	}
+}
+
+@keyframes jet-engine-spin {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(359deg);
+	}
+}
